@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Interactive Comics (Jeannie & Thomas H.)</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="aos-master/dist/aos.css" rel="stylesheet">
+  <link <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+</head>
+
+
+<body>
+
+  <div class="header">
+    <h1>The Magic Paintbrush</h1>
+    <h3>A Chinese Folk Story</h3>
+    <h2>(use arrow keys to go down!)</h2>
+  </div>
+
+  <div class="comics">
+    <div class="image" data-aos="fade-down">
+      <img src="img/1.jpg" alt="">
+    </div>
+    <div class="text" data-aos="fade-down">
+      <p>A boy named Ma Liang lived in a poor village, but he was cheerful because he loved to paint. He happily drew birds and animals in the wet dirt with his finger. His creativity was endless.</p>
+    </div>
+  </div>
+
+  <div class="stroke" id="s1">
+    <div class ="white" id="white1"></div>
+    <img src="img/stroke1.png" alt="">
+  </div>
+
+  <div class="comics" data-aos="fade-down">
+    <div class="text">
+      <p>One night, a white owl flew into his bedroom. <br><br><br> (click image!) </p>
+    </div>
+    <div class="image">
+      <img src="img/2.jpg" alt="" onclick="onclickOwl()" id="owlpanel">
+      <img src="img/owl.png" alt=""  id="owl">
+    </div>
+  </div>
+
+  <div class="stroke" id="s2">
+    <div class ="white" id="white2"></div>
+    <img src="img/stroke2.png" alt="">
+  </div>
+
+  <div class="comics" data-aos="fade-down">
+    <div class="image">
+      <img src="img/3.jpg" alt="">
+    </div>
+    <div class="text">
+      <p>In a flash, the owl changed into an old man. <br> <br>He said, "A boy with your talent deserves a gift from the gods. Here is a Magic Paint. Use it to make people happy."
+      </p>
+    </div>
+  </div>
+
+  <div class="stroke" id="s3">
+    <div class ="white" id="white3"></div>
+    <img src="img/stroke1.png" alt="">
+  </div>
+
+  <div class="comics" data-aos="fade-down">
+    <div class="text">
+      <p>Ma Liang quickly painted a bird -- which came to life! <br><br><br> (click image!) </p>
+    </div>
+    <div class="image" id="birdpanel">
+      <img src="img/4.jpg" alt="" onclick="onclickBird()">
+    </div>
+  </div>
+
+  <div class="stroke" id="s4">
+    <div class ="white" id="white4"></div>
+    <img src="img/stroke2.png" alt="">
+  </div>
+
+  <div class="comics" data-aos="fade-down">
+    <div class="image" data-aos="fade-down"  id="wheelpanel">
+      <img src="img/5.jpg" alt="" onclick="onclickWheel()">
+    </div>
+    <div class="text" data-aos="fade-up-right">
+      <p>He ran and found his father standing by a broken cart and painted a new wheel.<br><br>The wheel came to life! Ma liang fixed his father's cart!<br>His father was overjoyed.<br>Ma Liang spent the day fixing things for his father. They were both very happy.<br><br> (click image!) </p>
+    </div>
+  </div>
+
+  <div class="stroke" id="s5">
+    <div class ="white" id="white5"></div>
+    <img src="img/stroke1.png" alt="">
+  </div>
+
+  <div class="comics" data-aos="fade-down">
+    <div class="text">
+      <p>News of Ma Liang's paintbrush spread through the village. <br>He eagerly painted new farming equipment all his neighbors.<br><br><br> (click image!) </p>
+    </div>
+    <div class="image" id="shovelpanel">
+      <img src="img/6.jpg" alt="" onclick="onclickShovel()">
+      <img src="img/shovel.png" alt="" id="shovel">
+    </div>
+  </div>
+
+  <div class="stroke" id="s6">
+    <div class ="white" id="white6"></div>
+    <img src="img/stroke2.png" alt="">
+  </div>
+
+  <div class="comics" data-aos="fade-down">
+    <div class="image">
+      <img src="img/7.jpg" alt="">
+    </div>
+    <div class="text">
+      <p>When the cruel and greedy emperor heard this, he offered a reward for Ma Liang's capture. </p>
+    </div>
+  </div>
+
+  <div class="stroke" id="s7">
+    <div class ="white" id="white7"></div>
+    <img src="img/stroke1.png" alt="">
+  </div>
+
+  <div class="comics" data-aos="fade-down">
+    <div class="text">
+      <p>The emperor's soldiers captured Ma Ling and threw him in jail, and confiscated his brush.<br><br><br> (click image!) </p>
+    </div>
+    <div class="image" onclick="onclick8()">
+      <img src="img/8.jpg" alt="" id="8panel">
+    </div>
+  </div>
+
+  <div class="stroke" id="s8">
+    <div class ="white" id="white8"></div>
+    <img src="img/stroke2.png" alt="">
+  </div>
+
+  <div class="comics" data-aos="fade-down">
+    <div class="image">
+      <img src="img/9.jpg" alt="">
+    </div>
+    <div class="text">
+      <p>The magic paintbrush was then given to the emperor. Using the brush, the emperor painted a long bar of gold.</p>
+    </div>
+  </div>
+
+  <div class="stroke" id="s9">
+    <div class ="white" id="white9"></div>
+    <img src="img/stroke1.png" alt="">
+  </div>
+
+  <div class="comics" data-aos="fade-down">
+    <div class="text">
+      <p>It came to life. <br><br>But to the emperor's surprise, it wriggled off the paper..... <br><br>....as a serpent!</p>
+    </div>
+    <div class="image">
+      <img src="img/10.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="stroke" id="s10">
+    <div class ="white" id="white10"></div>
+    <img src="img/stroke2.png" alt="">
+  </div>
+
+  <div class="comics" data-aos="fade-down">
+    <div class="image">
+      <img src="img/11.jpg" alt="">
+    </div>
+    <div class="text">
+      <p>The furious emperor ordered Ma Liang to paint a ship large enough for the Royal Family and all its servants.</p>
+    </div>
+  </div>
+
+  <div class="stroke" id="s11">
+    <div class ="white" id="white11"></div>
+    <img src="img/stroke1.png" alt="">
+  </div>
+
+  <div class="comics" data-aos="fade-down">
+    <div class="text">
+      <p>Ma Liang drew a beautiful boat gilded with gold and gems.</p>
+    </div>
+    <div class="image">
+      <img src="img/12.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="stroke" id="s12">
+    <div class ="white" id="white12"></div>
+    <img src="img/stroke2.png" alt="">
+  </div>
+
+  <div class="comics" data-aos="fade-down">
+    <div class="image">
+      <img src="img/13.jpg" alt="">
+    </div>
+    <div class="text">
+      <p>Next he was ordered to draw a river.</p>
+    </div>
+  </div>
+
+  <div class="stroke" id="s13">
+    <div class ="white" id="white13"></div>
+    <img src="img/stroke1.png" alt="">
+  </div>
+
+  <div class="comics" data-aos="fade-down">
+    <div class="text">
+      <p>Ma Liang drew a vast river under the boat that would lead to the sea.</p>
+    </div>
+    <div class="image">
+      <img src="img/14.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="stroke" id="s14">
+    <div class ="white" id="white14"></div>
+    <img src="img/stroke2.png" alt="">
+  </div>
+
+  <div class="comics" data-aos="fade-down">
+    <div class="image">
+      <img src="img/15.jpg" alt="">
+    </div>
+    <div class="text">
+      <p>The Royal Family and servants boarded the boat. They were amaized by the fine detail that was put into the boat <br> <br> But Ma Liang quickly drew a giant tidal wave!</p>
+    </div>
+  </div>
+
+  <div class="stroke" id="s15">
+    <div class ="white" id="white15"></div>
+    <img src="img/stroke1.png" alt="">
+  </div>
+
+  <div class="comics" data-aos="fade-down">
+    <div class="text">
+      <p>The wave destroyed the royal palace and pulled the boat far out to sea. <br><br>The evil emperor never returned. </p>
+    </div>
+    <div class="image">
+      <img src="img/16.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="footer">
+    <h2>THE END</h2>
+    <h3>Created by Jeannie Jung and Thomas Hillenmeyer</h3>
+    <h4>Communication Lab Fall 2018, NYU Shanghai</h4>
+  </div>
+
+
+
+
+  <script src="js/script.js" type="text/javascript"></script>
+  <script type="text/javascript" src="aos-master/dist/aos.js"></script>
+  <script>AOS.init({duration:1500}); </script>
+</body>
+
+</html>

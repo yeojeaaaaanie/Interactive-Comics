@@ -1,0 +1,99 @@
+html, body {
+  height: 100%;
+  background-image:url(paper.jpg);
+}
+
+body {
+  margin: 0;
+
+}
+
+/* h1 {
+margin: 40px;
+
+} */
+
+/* HEADER */
+
+.header {
+  height: 200px;
+  width: 100%;
+  font-family: 'Caveat Brush', cursive;
+  text-align: center;
+}
+
+/* BODY */
+
+.comics {
+  /* width: 100%; */
+  /* flex-wrap: wrap;
+  align-content: flex-start;
+  display: flex; */
+  display: block;
+  /* background-color: yellow; */
+  width: 95%;
+  height: 50vh;
+  margin: 0 2.5%;
+}
+
+.image {
+  float: left;
+  height: 44vh;
+  width: 40vw;
+
+  margin: 0 5vh;
+
+}
+
+.image img {
+  max-width: 100%;
+  max-height: 100%;
+
+  border: 10px black solid;
+  border-radius: 20px;
+  margin: 0.3vh 0;
+}
+
+.text {
+  float: left;
+  height: 44vh;
+  width: 40vw;
+
+  margin: 0 5vh;
+  border: 10px black solid;
+  border-radius: 20px;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 24px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+
+
+
+}
+
+.text p {
+  max-width: 100%;
+  max-height: 100%;
+
+
+
+
+  /* border: 1px black solid;
+  border-radius: 10px; */
+}
+
+.stroke {
+  display: block;
+  height: 65vh;
+  width: 70vw;
+  /* align-items: center;
+  justify-content: center; */
+  margin: 0 auto;
+  /* background-color: green; */
+}
+
+.stroke img {
+  max-width: 100%;
+  max-height: 100%;
+}

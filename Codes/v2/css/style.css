@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 40px;
+  text-align: center;
+}
+
+.image {
+  display: flex;
+  height: auto;
+  width: 40%;
+  margin: 10px;
+}
+
+.comics {
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  display: flex;
+
+}
+
+.text {
+  height: auto;
+  width: 40%;
+  margin: 10px;
+}

@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 40px;
+  text-align: center;
+}
+
+.comics {
+  /* width: 100%; */
+  /* flex-wrap: wrap;
+  align-content: flex-start;
+  display: flex; */
+  display: block;
+}
+
+.image {
+  float: left;
+  height: 375px;
+  width: 600px;
+  margin: 10px;
+}
+
+.image img {
+  height: 375px;
+  width: 600px;
+}
+
+.text {
+  height: 375px;
+  width: 600px;
+  margin: 10px;
+  background-color: red;
+  float: left;
+}
